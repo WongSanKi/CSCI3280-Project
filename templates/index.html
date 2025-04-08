@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voice Assistant</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Voice Assistant</h1>
+        <button id="record-btn">Start Recording (Press R)</button>
+        <div class="status" id="status">Ready</div>
+        <div class="divider"></div>
+        <div id="conversation">
+            <!-- Conversation will appear here -->
+        </div>
+    </div>
+    <script src="{{ url_for('static', filename='app.js') }}"></script>
+</body>
+</html>

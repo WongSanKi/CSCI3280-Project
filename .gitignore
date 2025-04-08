@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+.python-version
+.venv/
+
+# Environment
+.env
+.env.local
+
+# Audio/Media
+uploads/
+recordings/
+*.wav
+*.mp3
+
+# System
+.DS_Store
+Thumbs.db
+
+# Editor
+*.swp
+*.swo
+.idea/
+.vscode/

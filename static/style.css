@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+h1 {
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#record-btn {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom: 15px;
+    transition: background-color 0.3s;
+}
+
+#record-btn:hover {
+    background-color: #45a049;
+}
+
+#record-btn:disabled {
+    background-color: #cccccc;
+}
+
+.status {
+    text-align: center;
+    margin-bottom: 15px;
+    font-style: italic;
+    color: #666;
+}
+
+.divider {
+    height: 1px;
+    background-color: #ddd;
+    margin: 15px 0;
+}
+
+#conversation {
+    line-height: 1.6;
+}
+
+.message {
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.user-message {
+    background-color: #f0f8ff;
+    border-left: 4px solid #0066cc;
+}
+
+.ai-message {
+    background-color: #f0f0f0;
+    border-left: 4px solid #4CAF50;
+}
+
+.timestamp {
+    font-size: 0.8em;
+    color: #999;
+    margin-bottom: 5px;
+}
